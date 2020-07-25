@@ -1,7 +1,7 @@
 import { actionTypes } from './actions'
 
 const getInitialState = () => ({
-  theme: 'dark'
+  theme: 'dark',
 });
 
 const app = (state = getInitialState(), { type, payload }) => {
